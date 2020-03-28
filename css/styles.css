@@ -208,6 +208,8 @@ footer {
     border: 1px solid black;
     background: #5c5c3d;
     width: 9vw;
+    position: relative;
+    bottom: 36px;
 }
 
 #dropdown ul {
