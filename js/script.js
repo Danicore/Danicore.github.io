@@ -1,4 +1,4 @@
-/*const menu = document.getElementById("menu");
+const menu = document.getElementById("menu");
 const gnav = document.getElementById("great-nav");
 const dropdown = document.getElementById("dropdown");
 
@@ -11,7 +11,7 @@ const dontGetIt = () => {
 }
 
 gnav.onmouseover = getIt;
-gnav.onmouseout = dontGetIt;*/
+gnav.onmouseout = dontGetIt;
 
 /*if (gnav.onmouseover) {
 	dropdown.style.display = "block";
