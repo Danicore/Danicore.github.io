@@ -36,6 +36,10 @@ nav {
     align-items: center;
 }
 
+#menu:hover ~ #dropdown {
+    display: block;
+}
+
 #portrait {
     display: flex;
 }
