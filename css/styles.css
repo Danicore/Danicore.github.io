@@ -36,9 +36,11 @@ nav {
     align-items: center;
 }
 
-/*#menu:hover ul {
-    display: block;
-}*/
+#menu:hover {
+    position: relative;
+    top: 55px;
+    right: 50px;
+}
 
 #portrait {
     display: flex;
@@ -208,8 +210,6 @@ footer {
     border: 1px solid black;
     background: #5c5c3d;
     width: 9vw;
-    position: relative;
-    bottom: 36px;
 }
 
 #dropdown ul {

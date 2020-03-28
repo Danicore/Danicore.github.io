@@ -10,8 +10,8 @@ const dontGetIt = () => {
 	dropdown.style.display = "none";
 }
 
-(menu || dropdown).onmouseover = getIt;
-(menu || dropdown).onmouseout = dontGetIt;
+menu.onmouseover = getIt;
+menu.onmouseout = dontGetIt;
 
 /*if (gnav.onmouseover) {
 	dropdown.style.display = "block";
