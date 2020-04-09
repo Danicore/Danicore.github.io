@@ -224,9 +224,13 @@ footer {
         margin-right: 20px;
     }
     
-    /*#menu {
-        width: 6vw;
-    }*/
+    #menu {
+        width: 12px;
+    }
+
+    #menu:hover {
+        right: 40px;
+    }
 
     #dropdown {
         width: 9vw;
@@ -240,9 +244,9 @@ footer {
         margin-right: 0;
     }
 
-    /*#menu {
-        width: 6vw;
-    }*/
+    #menu:hover {
+        right: 40px;
+    }
 
     #ape-side {
         padding: 0 0 0 0;
