@@ -27,7 +27,7 @@ header {
 }
 
 nav {
-    background: white;
+    background: rgb(29, 18, 80);
     border-radius: 2%;
     height: 50px;
     /*width: 1051px;*/
@@ -46,35 +46,9 @@ nav {
 }
 
 #portrait {
-    display: flex;
-}
-
-#portrait article {
-    display: flex;
-}
-
-#ape {
-    background: url("../images/web-pic5.1.png");
+    background: url("../images/car1.jpeg") no-repeat;
     background-size: 100% 100%;
-    width: 50%;
-    height: 40vh;
-}
-
-#ape-side {
-    width: 50%;
-    padding: 5vh 0 0 20vh;
-}
-
-#ape-side #p1 {
-    font-size: 1.5em;
-    text-align: left;
-}
-
-#ape-side #p2 {
-    text-align: right;
-    position: relative;
-    top: 17vh;
-    right: 8vh;
+    height: 80vh;
 }
 
 #content {
@@ -215,6 +189,11 @@ footer {
     width: 6vw;
     list-style: none;
     text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: red;
 }
 
 /*tablet view*/
