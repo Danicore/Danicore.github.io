@@ -113,17 +113,18 @@ aside {
 
 #aside-a, #non-aside-a {
     height: 50px;
-    padding-left: 20px;
-    font-size: 1.5em;
-    display: flex;
-    align-items: center;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 18px;
 }
 
 #non-aside-a {
     background: #06130d;
     border-radius: 3%;
     color: white;
-    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 
 #non-aside-b, #non-aside-d {
