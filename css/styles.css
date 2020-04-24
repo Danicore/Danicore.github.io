@@ -78,6 +78,7 @@ aside {
     flex-direction: column;
     justify-content: space-between;
 }
+
 #aside-a, #aside-c, #aside-e, #non-aside-c {
     background: rgb(18, 53, 35);
     border-radius: 3%;
@@ -140,15 +141,33 @@ aside {
 }
 
 #na-b1 {
-    background: url("../images/web-pic1.png");
+    background: url("../images/car5.jpeg");
     background-size: 100% 100%;
 }
 
-#na-b1 p {
+#na-b2 {
+    background: url("../images/bike1.webp");
+    background-size: 100% 100%;
+}
+
+#na-b3 {
+    background: url("../images/auto-parts1.jpg");
+    background-size: 100% 100%;
+}
+
+#non-aside-b .zero {
     visibility: hidden;
 }
 
-#na-b3, #na-d2 {
+#non-aside-b .cent {
+    color: black;
+    background: purple;
+    width: 5vw;
+    text-align: center;
+    margin: auto;
+}
+
+#na-d2 {
     background: #06130d;
     border-radius: 3%;
     color: white;
@@ -178,7 +197,6 @@ footer {
 }
 
 .cent {
-    color: #5c5c3d;
     font-weight: bold;
 }
 
@@ -222,10 +240,6 @@ a {
     #menu {
         width: 10vw;
     }
-
-    /*#menu:hover p { 
-        
-    }*/
 
     #ape-side {
         padding: 0 0 0 0;
