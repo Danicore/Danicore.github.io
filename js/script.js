@@ -12,14 +12,3 @@ const dontGetIt = () => {
 
 menu.onmouseover = getIt;
 menu.onmouseout = dontGetIt;
-
-/*if (gnav.onmouseover) {
-	dropdown.style.display = "block";
-}*/
-/*else {
-	dropdown.style.display = "block";
-}*/
-
-/*input[type="radio"]:checked ~ .tick,
-input[type="radio"]:checked ~ .cross {
-  visibility: visible;*/
