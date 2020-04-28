@@ -121,21 +121,6 @@ aside {
     padding-bottom: 10px;
 }
 
-#na-b1 {
-    background: url("../images/car7.jpeg");
-    background-size: 100% 100%;
-}
-
-#na-b2 {
-    background: url("../images/bike1.webp");
-    background-size: 100% 100%;
-}
-
-#na-b3 {
-    background: url("../images/auto-parts1.jpg");
-    background-size: 100% 100%;
-}
-
 #non-aside-b .zero {
     visibility: hidden;
 }
