@@ -184,7 +184,7 @@ footer {
 #dropdown {
     display: none;
     border: 1px solid black;
-    background: #5c5c3d;
+    background: rgb(29, 18, 80);
     width: 6vw;
     list-style: none;
     text-align: left;
