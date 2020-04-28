@@ -107,7 +107,7 @@ aside {
     padding-bottom: 5px;
 }
 
-#non-aside-b, #non-aside-d {
+#non-aside-b {
     display: flex;
 }
 
