@@ -86,7 +86,6 @@ aside {
     padding: 5px;
 }
 
-
 #aside-c input {
     width: 15vw;
 }
@@ -109,16 +108,19 @@ aside {
 
 #non-aside-b {
     display: flex;
+    flex-direction: column;
 }
 
 #non-aside-c {
     display: flex;
     text-align: left;
     padding: 0;
+    background: #06130d;
 }
 
 #non-aside-c li {
     padding-bottom: 10px;
+    list-style: none;
 }
 
 #na-b1 {
@@ -146,13 +148,6 @@ aside {
     width: 5vw;
     text-align: center;
     margin: auto;
-}
-
-#na-c-pic {
-    background: url("../images/car14.jpeg");
-    background-size: 100% 100%;
-    height: 29vh;
-    width: 30vw;
 }
 
 footer {
