@@ -126,18 +126,6 @@ aside {
     background-size: 100% 100%;
 }
 
-#non-aside-b .zero {
-    visibility: hidden;
-}
-
-#non-aside-b .cent {
-    color: yellow;
-    background: purple;
-    width: 5vw;
-    text-align: center;
-    margin: auto;
-}
-
 footer {
     display: flex;
     flex-direction: column;
