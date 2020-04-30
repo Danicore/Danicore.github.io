@@ -150,6 +150,23 @@ aside {
     margin: auto;
 }
 
+#name, #phon, #emai {
+    width: 100%;
+}
+
+#mess {
+    width: 40vw;
+    height: 15vh;
+}
+
+#btn {
+    height:50px;
+    width:100px;
+    background:rgb(18, 53, 35);
+    border:none;
+    border-radius:25%;
+}
+
 footer {
     display: flex;
     flex-direction: column;
