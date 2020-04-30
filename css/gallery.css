@@ -109,6 +109,13 @@ aside {
 
 #non-aside-b {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#non-aside-b * {
+    height: 40vh;
+    width: 20vw;
 }
 
 #na-b1 {
