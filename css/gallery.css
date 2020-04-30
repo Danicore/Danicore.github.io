@@ -115,6 +115,7 @@ aside {
 #non-aside-b * {
     height: 40vh;
     width: 20vw;
+    margin-top: 10vh;
 }
 
 #na-b1 {
