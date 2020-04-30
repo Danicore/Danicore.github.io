@@ -79,7 +79,7 @@ aside {
     justify-content: space-between;
 }
 
-#aside-a, #aside-c, #non-aside-c {
+#aside-a, #aside-c {
     background: rgb(18, 53, 35);
     border-radius: 3%;
     color: white;
@@ -111,16 +111,6 @@ aside {
     display: flex;
 }
 
-#non-aside-c {
-    display: flex;
-    text-align: left;
-    padding: 0;
-}
-
-#non-aside-c li {
-    padding-bottom: 10px;
-}
-
 #na-b1 {
     background: url("../images/car7.jpeg");
     background-size: 100% 100%;
@@ -146,13 +136,6 @@ aside {
     width: 5vw;
     text-align: center;
     margin: auto;
-}
-
-#na-c-pic {
-    background: url("../images/car14.jpeg");
-    background-size: 100% 100%;
-    height: 29vh;
-    width: 30vw;
 }
 
 footer {
