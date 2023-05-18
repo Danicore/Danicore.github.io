@@ -41,10 +41,10 @@ nav {
     color: red;
 }
 
-#menu:hover {
+/* #menu:hover {
     position: relative;
     top: 36px;
-}
+} */
 
 #portrait {
     background: url("../images/car1.jpeg") no-repeat;
