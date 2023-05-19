@@ -41,6 +41,10 @@ nav {
     color: red;
 }
 
+.block {
+    display: none;
+}
+
 /* #menu:hover {
     position: relative;
     top: 36px;
@@ -178,7 +182,7 @@ footer {
 }
 
 #dropdown {
-    display: none;
+    /*display: none;*/
     border: 1px solid black;
     background: rgb(29, 18, 80);
     width: 6vw;

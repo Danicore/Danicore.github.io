@@ -4,14 +4,14 @@ const dropdown = document.getElementById("dropdown");
 const portrait = document.getElementById("portrait");
 
 const getIt = () => {
-	dropdown.style.display = "block";
+	dropdown.classList.toggle("block");
 }
 
-const dontGetIt = () => {
-	dropdown.style.display = "none";
-}
+// const dontGetIt = () => {
+// 	dropdown.style.display = "none";
+// }
 
 menu.onclick = getIt;
 //menu.onmouseover = getIt;
 //menu.onmouseout = dontGetIt;
-menu.onfocusout = dontGetIt;
+//menu.onfocusout = dontGetIt;
