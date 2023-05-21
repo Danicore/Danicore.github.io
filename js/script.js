@@ -12,6 +12,19 @@ const dontGetIt = () => {
 }
 
 menu.onclick = getIt;
+
+if (dropdown.style.display = "block" === true) {
+	document.onclick = dontGetIt;
+}
+
+// else {
+// 	document.onclick = getIt;
+// }
+
+//menu.onclick = getIt;
+
+//dropdown.style.display = "none"
+
 //menu.onmouseover = getIt;
 //menu.onmouseout = dontGetIt;
-window.onclick = dontGetIt;
+//window.onclick = dontGetIt;
