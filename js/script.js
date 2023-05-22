@@ -13,7 +13,7 @@ const dontGetIt = () => {
 
 menu.onclick = getIt;
 
-if (dropdown.style.display = "block" === true) {
+if (menu.onclick = getIt === true) {
 	document.onclick = dontGetIt;
 }
 
