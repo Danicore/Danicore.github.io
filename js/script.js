@@ -11,10 +11,10 @@ const dontGetIt = () => {
 	dropdown.classList.add("block");
 }
 
-menu.onclick = getIt;
+var change;
 
-if (menu.onclick = getIt === true) {
-	document.onclick = dontGetIt;
+if (document.onclick = dontGetIt === true) {
+	menu.onclick = getIt;
 }
 
 // else {
