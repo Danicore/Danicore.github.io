@@ -42,7 +42,7 @@ nav {
 }
 
 .block {
-    display: none;
+    display: block !important;
 }
 
 /* #menu:hover {
@@ -202,7 +202,7 @@ footer {
 }
 
 #dropdown {
-    /*display: none;*/
+    display: none;
     border: 1px solid black;
     background: rgb(29, 18, 80);
     width: 6vw;
