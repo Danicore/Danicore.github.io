@@ -1,7 +1,7 @@
 const menu = document.getElementById("menu");
 //const gnav = document.getElementById("great-nav");
 const dropdown = document.getElementById("dropdown");
-const portrait = document.getElementById("portrait");
+//const portrait = document.getElementById("portrait");
 
 const getIt = () => {
 	dropdown.classList.add("block");
@@ -14,12 +14,13 @@ const dontGetIt = () => {
 menu.onclick = getIt;
 
 if (dropdown.style.display === "block") {
-	document.onclick = dontGetIt;
+	alert("apple");
+	dontGetIt;
 }
 
-// else {
-// 	dontGetIt;
-// }
+else {
+	alert("orange");
+}
 
 //menu.onclick = getIt;
 
