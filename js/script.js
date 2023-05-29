@@ -3,31 +3,46 @@ const menu = document.getElementById("menu");
 const dropdown = document.getElementById("dropdown");
 //const portrait = document.getElementById("portrait");
 
-const getIt = () => {
-	dropdown.classList.add("block");
+// const getIt = () => {
+// 	dropdown.classList.add("block");
+// }
+
+// const dontGetIt = () => {
+// 	dropdown.classList.remove("block");
+// }
+
+// menu.onclick = getIt;
+
+// if (dropdown.style.display === "block") {
+// 	alert("apple");
+// 	dontGetIt;
+// }
+
+// else {
+// 	alert("orange");
+// }
+
+const getIt = (e) => {
+  	const style = window.getComputedStyle(dropdown);
+
+    console.log(style.display);
+
+    if (style.display !== "block") {
+        dropdown.classList.add("block");
+        e.stopImmediatePropagation();
+    }  
 }
 
-const dontGetIt = () => {
-	dropdown.classList.remove("block");
+const dontGetIt = (e) => {
+    const style = window.getComputedStyle(dropdown);
+	
+    if (style.display === "block") {
+        dropdown.classList.remove("block");
+        console.log("Remove Block");
+        e.stopImmediatePropagation();
+    }  
 }
 
+//document.body.addEventListener('click', dontGetIt);
+document.onclick = dontGetIt;
 menu.onclick = getIt;
-
-if (dropdown.style.display === "block") {
-	alert("apple");
-	dontGetIt;
-}
-
-else {
-	alert("orange");
-}
-
-//menu.onclick = getIt;
-
-//dropdown.style.display = "none"
-
-//var change = document.onclick;
-
-//menu.onmouseover = getIt;
-//menu.onmouseout = dontGetIt;
-//window.onclick = dontGetIt;
