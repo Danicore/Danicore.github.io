@@ -32,7 +32,7 @@ nav {
     height: 50px;
     /*width: 1051px;*/
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
 }
 
