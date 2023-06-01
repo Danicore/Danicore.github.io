@@ -37,8 +37,10 @@ nav {
 }
 
 #menu {
-    width: 9vw;
-    color: red;
+    width: 5vw;
+    height: 5.2vh;
+    background: url("../images/MenuBtn.jpg");
+    background-size: 100% 100%;
 }
 
 .block {
