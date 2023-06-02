@@ -234,6 +234,10 @@ a {
         width: 10vw;
     }
 
+    #portrait {
+        height: 50vh;
+    }
+
     aside>*, #non-aside>* {
         margin-bottom: 10px;
     }
