@@ -221,10 +221,6 @@ a {
         width: 10vw;
     }
 
-    #ape-side {
-        padding: 0 0 0 0;
-    }
-
     aside>*, #non-aside>* {
         margin-bottom: 10px;
     }
