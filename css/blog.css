@@ -172,6 +172,10 @@ footer {
     text-align: center;
 }
 
+.list {
+    display: inline-block;
+}
+
 a {
     text-decoration: none;
     color: red;
