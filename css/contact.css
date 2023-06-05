@@ -247,6 +247,10 @@ a {
         flex-wrap: wrap;
     }
 
+    #aside-a, #non-aside-a {
+        height: 60px;
+    }
+
     #dropdown {
         width: 10vw;
         position: relative;
