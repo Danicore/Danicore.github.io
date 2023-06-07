@@ -170,6 +170,8 @@ footer {
     width: 7vw;
     /*list-style: none;*/
     text-align: center;
+    position: relative;
+    top: 33px;
 }
 
 a {
