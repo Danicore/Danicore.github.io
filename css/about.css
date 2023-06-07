@@ -85,7 +85,7 @@ aside {
     justify-content: space-between;
 }
 
-#aside-a, #aside-c, #non-aside-c {
+#aside-a, #aside-c, .non-aside-c {
     background: rgb(18, 53, 35);
     border-radius: 3%;
     color: white;
@@ -116,14 +116,10 @@ aside {
     display: flex;
 }
 
-#non-aside-c {
+.non-aside-c {
     display: flex;
     text-align: left;
     padding: 0;
-}
-
-#non-aside-c li {
-    padding-bottom: 10px;
 }
 
 #non-aside-b .zero {
@@ -138,7 +134,7 @@ aside {
     margin: auto;
 }
 
-#na-c-pic {
+.na-c-pic {
     background: url("../images/Memory4.jpg");
     background-size: 100% 100%;
     height: 29vh;
