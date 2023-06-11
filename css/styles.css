@@ -85,7 +85,7 @@ aside {
     justify-content: space-between;
 }
 
-#aside-a, #aside-c, #non-aside-c {
+#aside-a, #aside-c, .non-aside-c {
     background: rgb(18, 53, 35);
     border-radius: 3%;
     color: white;
@@ -116,10 +116,13 @@ aside {
     display: flex;
 }
 
-#non-aside-c {
+.non-aside-c {
     display: flex;
     text-align: left;
     padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 
 #non-aside-c li {
@@ -153,11 +156,32 @@ aside {
     margin: auto;
 }
 
-#na-c-pic {
-    background: url("../images/Memory4.jpg");
+#na-c-pic-1 {
+    width: 10vw;
+    height: 20vh;
+    background: url("../images/about.png");
     background-size: 100% 100%;
-    height: 29vh;
-    width: 30vw;
+}
+
+#na-c-pic-2 {
+    width: 10vw;
+    height: 20vh;
+    background: url("../images/blog.png");
+    background-size: 100% 100%;
+}
+
+#na-c-pic-3 {
+    width: 10vw;
+    height: 20vh;
+    background: url("../images/book.png");
+    background-size: 100% 100%;
+}
+
+#na-c-pic-4 {
+    width: 10vw;
+    height: 20vh;
+    background: url("../images/contact.png");
+    background-size: 100% 100%;
 }
 
 footer {
