@@ -137,10 +137,25 @@ aside {
 }
 
 .na-c-pic {
-    background: url("../images/Memory4.jpg");
     background-size: 100% 100%;
     height: 29vh;
     width: 30vw;
+}
+
+#na-c-pic-1 {
+    background: url("../images/home.png");
+}
+
+#na-c-pic-2 {
+    background: url("../images/blog.png");
+}
+
+#na-c-pic-3 {
+    background: url("../images/book.png");
+}
+
+#na-c-pic-4 {
+    background: url("../images/contact.png");
 }
 
 footer {
