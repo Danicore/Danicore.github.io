@@ -125,6 +125,10 @@ aside {
     justify-content: center;
 }
 
+.non-aside-c p {
+    font-size: 150%;
+}
+
 #non-aside-c li {
     padding-bottom: 10px;
 }
