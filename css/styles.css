@@ -160,21 +160,21 @@ aside {
 #na-c-pic-1 {
     width: 10vw;
     height: 20vh;
-    background: url("../images/about.png");
+    background: url("../images/blog.png");
     background-size: 100% 100%;
 }
 
 #na-c-pic-2 {
     width: 10vw;
     height: 20vh;
-    background: url("../images/blog.png");
+    background: url("../images/book.png");
     background-size: 100% 100%;
 }
 
 #na-c-pic-3 {
     width: 10vw;
     height: 20vh;
-    background: url("../images/book.png");
+    background: url("../images/about.png");
     background-size: 100% 100%;
 }
 
