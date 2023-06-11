@@ -149,6 +149,7 @@ aside {
 }
 
 #non-aside-b .cent {
+    visibility: hidden;
     color: yellow;
     background: purple;
     width: 5vw;
