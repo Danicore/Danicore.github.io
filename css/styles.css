@@ -135,21 +135,21 @@ aside {
 
 #na-b1 {
     width: 500px;
-    height: 300px;
+    height: 250px;
     background: url("../images/Memory1.jpg");
     background-size: 100% 100%;
 }
 
 #na-b2 {
     width: 500px;
-    height: 300px;
+    height: 250px;
     background: url("../images/Memory2.jpg");
     background-size: 100% 100%;
 }
 
 #na-b3 {
     width: 500px;
-    height: 300px;
+    height: 250px;
     background: url("../images/Memory3.jpg");
     background-size: 100% 100%;
 }
@@ -240,6 +240,10 @@ a {
     #menu {
         width: 12vw;
         height: 10vh;
+    }
+
+    #na-b1, #na-b2, #na-b3 {
+        height: 200px;
     }
 
     #dropdown {
