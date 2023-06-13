@@ -198,6 +198,7 @@ aside {
 footer {
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 #foot {
