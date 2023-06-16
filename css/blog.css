@@ -217,8 +217,8 @@ header a, #great-nav a, .non-aside-c a {
         margin-bottom: 10px;
     }
 
-    #non-aside>* {
-        flex-wrap: wrap;
+    #non-aside {
+        align-items: flex-start;
     }
 
     #aside-a, #non-aside-a {

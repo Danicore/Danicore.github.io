@@ -247,11 +247,6 @@ header a, #great-nav a, .non-aside-c a {
         margin-bottom: 10px;
     }
 
-    #non-aside>* {
-        flex-wrap: wrap;
-        flex-basis: auto;
-    }
-
     #aside-a, #non-aside-a {
         height: 90px;
     }
