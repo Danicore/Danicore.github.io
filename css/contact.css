@@ -157,7 +157,7 @@ aside {
 }
 
 #name, #emai, #webs {
-    width: 40vh;
+    width: 99.1%;
 }
 
 #mess {
@@ -222,6 +222,10 @@ header a, #great-nav a, .non-aside-c a {
         height: 10vh;
     }
 
+    #name, #emai, #webs {
+        width: 98.1%;
+    }
+
     #dropdown {
         width: 11.8vw;
     }
@@ -255,6 +259,10 @@ header a, #great-nav a, .non-aside-c a {
 
     #aside-a, #non-aside-a {
         height: 90px;
+    }
+
+    #name, #emai, #webs {
+        width: 97.1%;
     }
 
     #dropdown {
