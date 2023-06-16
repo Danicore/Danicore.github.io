@@ -253,6 +253,7 @@ header a, #great-nav a, .non-aside-c a {
 
     #non-aside>* {
         flex-wrap: wrap;
+        flex-basis: auto;
     }
 
     #aside-a, #non-aside-a {
