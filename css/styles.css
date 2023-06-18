@@ -225,7 +225,7 @@ header a, #great-nav a, .non-aside-c a {
 
 /*tablet view*/
 @media (min-width: 768px) and (max-width: 991px) {
-    body {
+    html, body {
         margin-left: 20px;
         margin-right: 20px;
     }
