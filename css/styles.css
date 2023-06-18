@@ -268,7 +268,7 @@ header a, #great-nav a, .non-aside-c a {
         margin-bottom: 10px;
     }
 
-    *#non-aside>* {
+    #non-aside>* {
         flex-wrap: wrap;
     }
 
