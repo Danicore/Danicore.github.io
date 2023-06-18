@@ -115,6 +115,7 @@ aside {
 #non-aside-b {
     display: flex;
     flex-direction: column;
+    font-size: 150%;
 }
 
 #non-aside-c {
