@@ -239,6 +239,10 @@ header a, #great-nav a, .non-aside-c a {
         height: 200px;
     }
 
+    #na-c-pic-1, #na-c-pic-2, #na-c-pic-3, #na-c-pic-4 {
+        width: 50vw;
+    }
+
     #dropdown {
         width: 11.8vw;
     }
