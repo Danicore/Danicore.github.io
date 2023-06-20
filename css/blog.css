@@ -129,6 +129,13 @@ aside {
     margin-top: 10vh;
 }
 
+iframe {
+    width: 480px;
+    height: 320px;
+    border: 1px solid #EEE;
+    background:white;
+}
+
 #na-b1 {
     background: url("../images/Memory1.jpg");
     background-size: 100% 100%;
