@@ -92,6 +92,11 @@ aside {
     padding: 5px;
 }
 
+#aside-c {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 #aside-c input {
     width: 15vw;
 }
