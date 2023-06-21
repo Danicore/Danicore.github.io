@@ -129,13 +129,6 @@ aside {
     margin-top: 10vh;
 }
 
-iframe {
-    /*width: 480px;
-    height: 320px;*/
-    border: 1px solid #EEE;
-    background:white;
-}
-
 #na-b1 {
     background: url("../images/Memory1.jpg");
     background-size: 100% 100%;
@@ -154,6 +147,14 @@ iframe {
 #na-b4 {
     background: url("../images/Memory4.jpg");
     background-size: 100% 100%;
+}
+
+iframe {
+    /*width: 480px;
+    height: 320px;*/
+    border: 1px solid #EEE;
+    background:#3c3d33;
+    border-radius: 3%;
 }
 
 footer {
