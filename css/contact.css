@@ -230,6 +230,26 @@ header a, #great-nav a, .non-aside-c a {
         height: 10vh;
     }
 
+    #content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content>* {
+        width: 480px;
+    }
+
+    #non-aside {
+        order: 1;
+        align-self: auto;
+    }
+
+    aside {
+        order: 2;
+        align-self: auto;
+    }
+
     #name, #emai, #webs {
         width: 98.1%;
     }
@@ -253,6 +273,26 @@ header a, #great-nav a, .non-aside-c a {
 
     #portrait {
         height: 30vh;
+    }
+
+    #content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content>* {
+        width: 480px;
+    }
+
+    #non-aside {
+        order: 1;
+        align-self: auto;
+    }
+
+    aside {
+        order: 2;
+        align-self: auto;
     }
 
     aside>*, #non-aside>* {

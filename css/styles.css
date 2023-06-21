@@ -114,6 +114,7 @@ aside {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #non-aside-b {
@@ -247,6 +248,26 @@ header a, #great-nav a, .non-aside-c a {
         height: 10vh;
     }
 
+    #content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content>* {
+        width: 480px;
+    }
+
+    #non-aside {
+        order: 1;
+        align-self: auto;
+    }
+
+    aside {
+        order: 2;
+        align-self: auto;
+    }
+
     #na-b1, #na-b2, #na-b3 {
         height: 200px;
     }
@@ -274,6 +295,26 @@ header a, #great-nav a, .non-aside-c a {
 
     #portrait {
         height: 30vh;
+    }
+
+    #content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content>* {
+        width: 480px;
+    }
+
+    #non-aside {
+        order: 1;
+        align-self: auto;
+    }
+
+    aside {
+        order: 2;
+        align-self: auto;
     }
 
     aside>*, #non-aside>* {

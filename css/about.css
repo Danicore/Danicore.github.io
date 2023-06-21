@@ -217,6 +217,26 @@ header a, #great-nav a, .non-aside-c a {
         height: 10vh;
     }
 
+    #content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content>* {
+        width: 480px;
+    }
+
+    #non-aside {
+        order: 1;
+        align-self: auto;
+    }
+
+    aside {
+        order: 2;
+        align-self: auto;
+    }
+
     #na-c-pic-1, #na-c-pic-2, #na-c-pic-3, #na-c-pic-4 {
         width: 10vw;
     }
@@ -240,6 +260,26 @@ header a, #great-nav a, .non-aside-c a {
 
     #portrait {
         height: 30vh;
+    }
+
+    #content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content>* {
+        width: 480px;
+    }
+
+    #non-aside {
+        order: 1;
+        align-self: auto;
+    }
+
+    aside {
+        order: 2;
+        align-self: auto;
     }
 
     aside>*, #non-aside>* {
