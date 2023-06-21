@@ -83,6 +83,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-self: flex-start;
 }
 
 #aside-a, #aside-c {
