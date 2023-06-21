@@ -82,7 +82,6 @@ aside {
     width: 65%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 #aside-a, #aside-c, .non-aside-c {
