@@ -82,24 +82,14 @@ aside {
     width: 65%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-self: flex-start;
 }
 
-#aside-a, #aside-c {
+#aside-a {
     background: rgb(18, 53, 35);
     border-radius: 3%;
     color: white;
     padding: 5px;
-}
-
-#aside-c {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-#aside-c input {
-    width: 15vw;
 }
 
 #aside-a, #non-aside-a {
@@ -116,46 +106,16 @@ aside {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
-}
-
-#non-aside-b {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-#non-aside-b * {
-    height: 40vh;
-    width: 60%;
-    margin-top: 10vh;
-}
-
-#na-b1 {
-    background: url("../images/Memory1.jpg");
-    background-size: 100% 100%;
-}
-
-#na-b2 {
-    background: url("../images/Memory2.jpg");
-    background-size: 100% 100%;
-}
-
-#na-b3 {
-    background: url("../images/Memory3.jpg");
-    background-size: 100% 100%;
-}
-
-#na-b4 {
-    background: url("../images/Memory4.jpg");
-    background-size: 100% 100%;
+    margin-bottom: 10px;
 }
 
 iframe {
-    /*width: 480px;*/
+    width: 400px;
     height: 320px;
     border: 1px solid #EEE;
     background:#3c3d33;
     border-radius: 3%;
+    align-self: center;
 }
 
 footer {
@@ -189,7 +149,7 @@ footer {
     top: 33px;
 }
 
-header a, #great-nav a, .non-aside-c a {
+header a, #great-nav a {
     text-decoration: none;
     color: red;
 }
@@ -204,6 +164,26 @@ header a, #great-nav a, .non-aside-c a {
     #menu {
         width: 12vw;
         height: 10vh;
+    }
+
+    #content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content>* {
+        width: 480px;
+    }
+
+    #non-aside {
+        order: 1;
+        align-self: auto;
+    }
+
+    aside {
+        order: 2;
+        align-self: auto;
     }
 
     #dropdown {
@@ -225,6 +205,26 @@ header a, #great-nav a, .non-aside-c a {
 
     #portrait {
         height: 30vh;
+    }
+
+    #content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #content>* {
+        width: 480px;
+    }
+
+    #non-aside {
+        order: 1;
+        align-self: auto;
+    }
+
+    aside {
+        order: 2;
+        align-self: auto;
     }
 
     aside>*, #non-aside>* {
