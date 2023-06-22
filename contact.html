@@ -66,15 +66,15 @@
 
                 <article id="non-aside-c">
                     <div>
-                        <ul><form>
-                            <li>NAME:</li>
-                            <li><input type="text" id="name"></li>
-                            <li>EMAIL:</li>
-                            <li><input type="text" id="emai"></li>
+                        <ul><form action="mailto:danielhaider@substack.com" method="post" enctype="text/plain">
+                            <li>NAME: (Required)</li>
+                            <li><input type="text" id="name" required="required"></li>
+                            <li>EMAIL: (Required)</li>
+                            <li><input type="text" id="emai" required="required"></li>
                             <li>WEBSITE:</li>
                             <li><input type="text" id="webs"></li>
-                            <li>MESSAGE:</li>
-                            <li><textarea id="mess"></textarea></li>
+                            <li>MESSAGE: (Required)</li>
+                            <li><textarea id="mess" required="required"></textarea></li>
                             <li><input type="submit" id="btn" value="SEND"></li>
                         </form></ul>
                     </div>
