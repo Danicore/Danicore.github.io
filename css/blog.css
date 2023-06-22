@@ -67,9 +67,6 @@ nav {
 aside {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    width: 25%;
     display: flex;
     flex-direction: column;
 }
@@ -77,9 +74,6 @@ aside {
 #non-aside {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 20px;
-    width: 65%;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
@@ -154,6 +148,21 @@ header a, #great-nav a {
     color: red;
 }
 
+/*desktop view only*/
+@media (min-width: 992px) {
+    #non-aside {
+        width: 65%;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    aside {
+        width: 25%;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+}
+
 /*tablet view*/
 @media (min-width: 768px) and (max-width: 991px) {
     html, body {
@@ -170,10 +179,6 @@ header a, #great-nav a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    #content>* {
-        width: 480px;
     }
 
     #non-aside {
@@ -211,10 +216,6 @@ header a, #great-nav a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    #content>* {
-        width: 480px;
     }
 
     #non-aside {
