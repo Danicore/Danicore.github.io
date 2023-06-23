@@ -78,20 +78,11 @@ aside {
     flex-direction: column;
 }
 
-#aside-a, #aside-c, .non-aside-c {
+#aside-a, .non-aside-c {
     background: rgb(18, 53, 35);
     border-radius: 3%;
     color: white;
     padding: 5px;
-}
-
-#aside-c {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-#aside-c input {
-    width: 15vw;
 }
 
 #aside-a, #non-aside-a {
