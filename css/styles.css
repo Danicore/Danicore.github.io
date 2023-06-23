@@ -120,21 +120,18 @@ aside {
 }
 
 #na-b1 {
-    width: 480px;
     height: 250px;
     background: url("../images/Memory1.jpg");
     background-size: 100% 100%;
 }
 
 #na-b2 {
-    width: 480px;
     height: 250px;
     background: url("../images/Memory2.jpg");
     background-size: 100% 100%;
 }
 
 #na-b3 {
-    width: 480px;
     height: 250px;
     background: url("../images/Memory3.jpg");
     background-size: 100% 100%;
@@ -233,6 +230,10 @@ header a, #great-nav a, .non-aside-c a {
         width: 25%;
         padding-left: 20px;
         padding-right: 10px;
+    }
+
+    #na-b1, #na-b2, #na-b3 {
+        width: 480px;
     }
 }
 
