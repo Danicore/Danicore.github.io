@@ -66,7 +66,7 @@
 
                 <article id="non-aside-c">
                     <div>
-                        <ul><form action="mailto:danielhaider@substack.com" method="post" enctype="text/plain">
+                        <ul><form action="mailto:danielhaider@substack.com" method="post" enctype="text/plain" onsubmit="sendEmail()">
                             <li>NAME: (Required)</li>
                             <li><input type="text" id="name" required="required"></li>
                             <li>EMAIL: (Required)</li>
@@ -89,5 +89,21 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "username",
+                Password : "password",
+                To : 'them@website.com',
+                From : "you@isp.com",
+                Subject : "This is the subject",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script>
 </body>
 </html>
