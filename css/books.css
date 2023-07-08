@@ -107,7 +107,7 @@ aside {
     justify-content: space-around;
 }
 
-#non-aside-b * {
+#non-aside-b div {
     height: 80vh;
     width: 30vw;
     margin-top: 10vh;
@@ -265,7 +265,7 @@ header a, #great-nav a, .non-aside-c a {
         height: 90px;
     }
 
-    #non-aside-b * {
+    #non-aside-b div {
         height: 40vh;
         width: 40vw;
     }
