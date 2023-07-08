@@ -265,6 +265,11 @@ header a, #great-nav a, .non-aside-c a {
         height: 90px;
     }
 
+    #non-aside-b * {
+        height: 40vh;
+        width: 40vw;
+    }
+
     #dropdown {
         width: 20.8vw;
     }
